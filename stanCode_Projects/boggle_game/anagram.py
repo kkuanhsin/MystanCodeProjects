@@ -64,9 +64,9 @@ def read_dictionary(s):
             # get the same length word
             if len(line.strip()) == len(s):
                 # get the character in the word
-                # if s[0] in line.strip():
-                #     if s[1] in line.strip():
-                #         if s[2] in line.strip():
+                if s[0] in line.strip():
+                    if s[1] in line.strip():
+                        if s[2] in line.strip():
                             dict_lst.append(line.strip())
 
     return dict_lst
